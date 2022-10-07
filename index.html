@@ -801,179 +801,202 @@
       </section>
     </section>
 
-    <section class="mt-[50rem] py-96 w-[80%] mx-auto">
-      <div class="grid grid-cols-3">
+    <section class="mt-[30rem] py-96 w-[60%] mx-auto flex flex-col gap-8">
+      <div class="flex flex-col gap-8">
+        <p class="text-[#0048e5] font-secondary">Why Stripe</p>
+        <h1 class="text-5xl font-secondary leading-[3.5rem]">
+          A technology-first approach to payments<br />
+          and finance
+        </h1>
+      </div>
+      <div class="grid grid-cols-4">
         <div>
-          <svg
-            width="96"
-            height="96"
-            viewBox="0 0 96 96"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <defs>
-              <path
-                id="terminalIconCode"
-                d="M44 28a4 4 0 0 1 4 4v17a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h24zm-23.2 5.17l-.67.75a.5.5 0 0 0-.02.64l.06.06 3.29 2.92-3.3 2.92a.5.5 0 0 0-.03.7l.66.76c.18.2.5.22.7.04l4.97-4.42-4.96-4.41a.5.5 0 0 0-.7.04z"
-              ></path>
-              <path
-                id="terminalIconCursor"
-                d="M27.64 40h6.72c.22 0 .3.02.38.07.09.04.15.1.2.19.04.08.06.16.06.38v.72c0 .22-.02.3-.07.38a.45.45 0 0 1-.19.2c-.08.04-.16.06-.38.06h-6.72c-.22 0-.3-.02-.38-.07a.45.45 0 0 1-.2-.19c-.04-.08-.06-.16-.06-.38v-.72c0-.22.02-.3.07-.38.04-.09.1-.15.19-.2.08-.04.16-.06.38-.06z"
-              ></path>
-              <path
-                id="terminalIconGear"
-                d="M42.5 42l1.13 3.13.64.13 2.24-2.46.93.38-.16 3.33c.19.11.37.23.54.36l3.02-1.42.7.71-1.41 3.02c.13.17.25.35.36.54l3.33-.16.38.93-2.46 2.24c.05.21.1.42.13.64L55 54.5v1l-3.13 1.13c-.04.25-.1.5-.15.73l2.48 2.15-.38.93-3.28-.24c-.14.24-.3.47-.47.7l1.48 2.94-.71.7-2.94-1.47c-.23.17-.46.33-.7.47l.24 3.28-.93.38-2.15-2.48c-.27.06-.54.12-.82.16L42.5 68h-1l-1.04-3.12c-.28-.04-.55-.1-.82-.16l-2.15 2.48-.93-.38.24-3.28c-.24-.14-.47-.3-.7-.47l-2.94 1.48-.7-.71 1.47-2.94c-.17-.23-.33-.46-.47-.7l-3.28.24-.38-.93 2.48-2.15a9.95 9.95 0 0 1-.16-.82L29 55.5v-1l3.12-1.04c.04-.25.08-.49.14-.73l-2.46-2.24.38-.93 3.33.16c.11-.19.23-.37.36-.54l-1.42-3.02.71-.7 3.02 1.41c.17-.13.35-.25.54-.36l-.16-3.33.93-.38 2.24 2.46s.42-.1.64-.13L41.5 42h1zM42 53a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
-              ></path>
-              <clipPath id="terminalIconClipPath">
-                <use href="#terminalIconCode"></use>
-              </clipPath>
-            </defs>
-
-            <use href="#terminalIconCode" fill="#00d4ff"></use>
-            <use fill="var(--knockoutColor)"></use>
-            <use href="#terminalIconGear" fill="#7a73ff"></use>
-            <g clip-path="url(#terminalIconClipPath)">
-              <use href="#terminalIconGear" fill="#ffff"></use>
-            </g>
-          </svg>
-          <div class="text-white font-secondary">Tools for every stack</div>
-          <p class="py-3 text-gray-400 font-secondary">
-            We offer client and server<br />
-            libraries in everything from <br />
-            React and PHP to .NET and iOS.
-          </p>
-          <p
-            class="font-secondary text-[#00d4ff] flex items-center justify-start gap-2"
-          >
-            See libraries
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="w-5 h-5"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                clip-rule="evenodd"
-              />
-            </svg>
+          <img src="./assets/vectos/material.svg" class="w-20" />
+          <p class="font-secondary">Close to the metal</p>
+          <p class="py-1 text-gray-400 font-secondary">
+            From direct integrations with<br />
+            card networks and banks to<br />
+            checkout flows in the browser,<br />
+            we operate on and optimize at<br />
+            every level of the financial stack.
           </p>
         </div>
         <div>
-          <svg
-            width="96"
-            height="96"
-            preserveAspectRatio="xMinYMin"
-            viewBox="0 0 96 96"
-            xmlns="http://www.w3.org/2000/svg"
-            data-js-controller="BlocksIcon"
-          >
-            <defs>
-              <path
-                id="blocksIconBack"
-                d="M30.68 31.37l9 4.15A4 4 0 0 1 42 39.15v10.89a4 4 0 0 1-2.32 3.63l-9 4.15a4 4 0 0 1-3.36 0l-9-4.15A4 4 0 0 1 16 50.04V39.15a4 4 0 0 1 .35-1.62L29 43.36v-1.54l-11.85-5.47a4 4 0 0 1 1.17-.83l9-4.15a4 4 0 0 1 3.36 0z"
-              ></path>
-              <path
-                id="blocksIconFront"
-                d="M55 45.15v10.89a4 4 0 0 1-2.32 3.63l-9 4.15a4 4 0 0 1-3.36 0l-9-4.15A4 4 0 0 1 29 56.04V45.15a4 4 0 0 1 .35-1.62L42 49.37l12.65-5.84a4 4 0 0 1 .35 1.62zm-11.32-7.78l9 4.15a4 4 0 0 1 1.17.83L42 47.82l-11.86-5.47a4 4 0 0 1 1.18-.83l9-4.15a4 4 0 0 1 3.36 0z"
-              ></path>
-              <clipPath id="blocksIconClipPath">
-                <use
-                  href="#blocksIconFront"
-                  transform="translate(-13, -6)"
-                ></use>
-                <use
-                  href="#blocksIconFront"
-                  transform="translate(-65, -30)"
-                  data-js-bbox="secondHiddenBlock"
-                ></use>
-              </clipPath>
-            </defs>
-            <use
-              href="#blocksIconFront"
-              fill="#7a73ff"
-              transform="translate(-13, -6)"
-            ></use>
-            <use href="#blocksIconFront" fill="#00d4ff"></use>
-            <g clip-path="url(#blocksIconClipPath)">
-              <use href="#blocksIconFront" fill="#fff"></use>
-            </g>
-          </svg>
-          <div class="text-white font-secondary">Prebuilt integrations</div>
-          <p class="py-3 text-gray-400 font-secondary">
-            Use integrations for systems<br />
-            like Shopify, WooCommerce,<br />
-            NetSuite, and more.
-          </p>
-          <p
-            class="font-secondary text-[#00d4ff] flex items-center justify-start gap-2"
-          >
-            Explore partners
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="w-5 h-5"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                clip-rule="evenodd"
-              />
-            </svg>
+          <img src="./assets/vectos/doublePause.svg" class="w-20" />
+          <p class="font-secondary">Fastest-improving platform</p>
+          <p class="py-1 text-gray-400 font-secondary">
+            We release hundreds of features<br />
+            and improvements each year to<br />
+            help you stay ahead of industry<br />
+            shifts. (On average, we deploy<br />
+            our production API 16x per day.)
           </p>
         </div>
 
         <div>
-          <svg
-            width="96"
-            height="96"
-            preserveAspectRatio="xMinYMin"
-            viewBox="0 0 96 96"
-            xmlns="http://www.w3.org/2000/svg"
-            data-js-controller="BlocksIcon"
-          >
-            <defs>
-              <path
-                id="blocksIconBack"
-                d="M30.68 31.37l9 4.15A4 4 0 0 1 42 39.15v10.89a4 4 0 0 1-2.32 3.63l-9 4.15a4 4 0 0 1-3.36 0l-9-4.15A4 4 0 0 1 16 50.04V39.15a4 4 0 0 1 .35-1.62L29 43.36v-1.54l-11.85-5.47a4 4 0 0 1 1.17-.83l9-4.15a4 4 0 0 1 3.36 0z"
-              ></path>
-              <path
-                id="blocksIconFront"
-                d="M55 45.15v10.89a4 4 0 0 1-2.32 3.63l-9 4.15a4 4 0 0 1-3.36 0l-9-4.15A4 4 0 0 1 29 56.04V45.15a4 4 0 0 1 .35-1.62L42 49.37l12.65-5.84a4 4 0 0 1 .35 1.62zm-11.32-7.78l9 4.15a4 4 0 0 1 1.17.83L42 47.82l-11.86-5.47a4 4 0 0 1 1.18-.83l9-4.15a4 4 0 0 1 3.36 0z"
-              ></path>
-              <clipPath id="blocksIconClipPath">
-                <use
-                  href="#blocksIconFront"
-                  transform="translate(-13, -6)"
-                ></use>
-                <use
-                  href="#blocksIconFront"
-                  transform="translate(-65, -30)"
-                  data-js-bbox="secondHiddenBlock"
-                ></use>
-              </clipPath>
-            </defs>
-            <use
-              href="#blocksIconFront"
-              fill="#7a73ff"
-              transform="translate(-13, -6)"
-            ></use>
-            <use href="#blocksIconFront" fill="#00d4ff"></use>
-            <g clip-path="url(#blocksIconClipPath)">
-              <use href="#blocksIconFront" fill="#fff"></use>
-            </g>
-          </svg>
-          <div class="text-white font-secondary">Prebuilt integrations</div>
-          <p class="py-3 text-gray-400 font-secondary">
-            Use integrations for systems<br />
-            like Shopify, WooCommerce,<br />
-            NetSuite, and more.
+          <img src="./assets/vectos/test.svg" class="w-20" />
+          <p class="font-secondary">Intelligent optimizations</p>
+          <p class="py-1 text-gray-400 font-secondary">
+            Our systems operate with<br />
+            99.99%+ uptime and are highly<br />
+            scalable and redundant. Stripe<br />
+            is certified to the highest<br />
+            compliance standards.
           </p>
-          <p
-            class="font-secondary text-[#00d4ff] flex items-center justify-start gap-2"
+        </div>
+
+        <div>
+          <img src="./assets/vectos/machine.svg" class="w-20" />
+          <p class="font-secondary">Battle-tested reliability</p>
+          <p class="py-1 text-gray-400 font-secondary">
+            Our machine learning models<br />
+            train on billions of data points<br />
+            and help increase revenue<br />
+            across conversion, fraud,<br />
+            revenue recovery, and more.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative w-full">
+      <div class="blobal-scale-cliped h-[55rem] bg-[#0a2540] w-full -mt-80">
+        <img
+          src="./assets/download.png"
+          class="w-[1000px] h-full object-cover ml-auto"
+        />
+
+        <div class="absolute bottom-0 w-[70%] right-0 left-0 mx-auto">
+          <div class="flex flex-col gap-9 w-full">
+            <p class="text-[#00d4ff] font-secondary text-xl px-5">
+              Global scale
+            </p>
+            <h1 class="text-5xl font-secondary text-white px-5">
+              The backbone for<br />
+              internet business
+            </h1>
+            <p class="font-secondary font-light text-gray-400 text-xl px-5">
+              For ambitious companies around the world, Stripe<br />
+              makes moving money as simple, borderless, and<br />
+              programmable as the rest of the internet. Our<br />
+              teams are based in dozens of offices around the<br />
+              world and we process hundreds of billions<br />
+              of dollars each year for
+              <span class="text-[#00d4ff]">start up fortune 500s</span>
+            </p>
+            <div class="grid grid-cols-4 py-20">
+              <div class="space-y-3">
+                <p
+                  class="text-white font-secondary text-2xl border-l-2 border-[#00d4ff] px-5"
+                >
+                  250M+
+                </p>
+                <p class="text-sm text-gray-400 font-secondary px-5 font-thin">
+                  API requests per day, peaking at<br />
+                  13,000 requests a second.
+                </p>
+              </div>
+              <div class="space-y-3">
+                <p
+                  class="text-white font-secondary text-2xl border-l-2 border-[#00d4ff] px-5"
+                >
+                  90%s
+                </p>
+                <p class="text-sm text-gray-400 font-secondary px-5 font-thin">
+                  of U.S. adults have bought from<br />
+                  businesses using Stripe.
+                </p>
+              </div>
+              <div class="space-y-3">
+                <p
+                  class="text-white font-secondary text-2xl border-l-2 border-[#00d4ff] px-5"
+                >
+                  135+
+                </p>
+                <p class="text-sm text-gray-400 font-secondary px-5 font-thin">
+                  currencies and payment<br />
+                  methods supported.
+                </p>
+              </div>
+              <div class="space-y-3">
+                <p
+                  class="text-white font-secondary text-2xl border-l-2 border-[#00d4ff] px-5"
+                >
+                  35+
+                </p>
+                <p class="text-sm text-gray-400 font-secondary px-5 font-thin">
+                  countries with local acquiring,<br />
+                  optimizing acceptance rates.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[rem] py-20 w-[60%] mx-auto flex flex-col gap-8">
+      <div class="grid grid-cols-4">
+        <div class="col-span-2 space-y-7">
+          <h2 class="font-secondary text-2xl">Ready to get started?</h2>
+          <p class="font-secondary text-gray-500">
+            Explore
+            <span class="text-[#635bff]">Stripe Payments</span>, or create an
+            account<br />
+            instantly and start accepting payments. You can<br />
+            also contact us to design a custom package for<br />
+            your business.
+          </p>
+          <div class="mt-7 flex gap-5">
+            <button
+              class="bg-[#635bff] text-white px-4 py-2 rounded-full text-sm font-bold flex gap-2 items-center"
+            >
+              Start now
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <button
+              class="font-bold text-sm px-4 py-2 flex gap-2 text-[#635bff] items-center"
+            >
+              Contact sales<svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <img src="./assets/vectos/pricing.svg" class="h-20" />
+          <p class="font-secondary border-l border-[#0048e5] px-4 text-sm">
+            Intelligent optimizations
+          </p>
+          <p class="py-1 text-gray-400 font-secondary px-4">
+            Integrated per-transaction<br />
+            pricing with no hidden fees.
+          </p>
+          <button
+            class="font-secondary text-sm px-4 py-2 flex gap-2 text-[#635bff] items-center"
           >
-            Explore partners
+            Pricing Details
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -986,22 +1009,54 @@
                 clip-rule="evenodd"
               />
             </svg>
+          </button>
+        </div>
+
+        <div>
+          <img src="./assets/vectos/code-mark.svg" class="h-20" />
+          <p class="font-secondary border-l border-[#0048e5] px-4 text-sm">
+            Battle-tested reliability
           </p>
+          <p class="py-1 text-gray-400 font-secondary px-4">
+            Get up and running with Stripe<br />
+            in as little as 10 minutes.
+          </p>
+          <button
+            class="font-secondary text-sm px-4 py-2 flex gap-2 text-[#635bff] items-center"
+          >
+            API reference
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </section>
 
     <footer
       style="clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%)"
-      class="grid grid-cols-4 bg-slate-200 justify-center"
+      class="grid grid-cols-4 bg-slate-200 justify-center py-20"
     >
-      <div class="flex flex-col text-black gap-2 mt-80 ml-40">
-        <h1 class="font-semibold">Stripe</h1>
-        <p>United States</p>
-        <p>English(United Kingdom)</p>
+      <div
+        class="flex flex-col justify-between gap-2 mt-80 ml-40 text-semi-gray font-secondary"
+      >
+        <div class="font-thin">
+          <h1 class="font-semibold">Stripe</h1>
+          <p>United States</p>
+          <p>English(United Kingdom)</p>
+        </div>
         <p style="margin-top: 100%">© 2022 Stripe, Inc.</p>
       </div>
-      <div class="mt-80 flex flex-col text-black gap-2">
+      <div class="mt-80 flex flex-col text-semi-gray gap-2 font-secondary">
         <p class="font-semibold">Products</p>
         <p>Atlas</p>
         <p>Billing</p>
@@ -1027,7 +1082,7 @@
         <p>Terminal</p>
         <p>Treasury</p>
       </div>
-      <div class="mt-80 flex flex-col text-black gap-2">
+      <div class="mt-80 flex flex-col text-semi-gray font-secondary gap-2">
         <p class="font-semibold">Use cases</p>
         <p>E-Commerce</p>
         <p>SaaS</p>
@@ -1037,16 +1092,20 @@
         <p>Creator Economy</p>
         <p>Crypto</p>
         <p>Global Businesses</p>
-        <p>Integrations & Custom Solutions</p>
-        <p>App Marketplace</p>
-        <p>Partner Ecosystem</p>
-        <p>Professional Services</p>
-        <p>Developers</p>
-        <p>Documentation</p>
-        <p>API reference</p>
-        <p>API status</p>
-        <p>API changelog</p>
-        <p>Build a Stripe App</p>
+        <div class="flex flex-col gap-2 py-7">
+          <p class="font-semibold">Integrations & Custom Solutions</p>
+          <p>App Marketplace</p>
+          <p>Partner Ecosystem</p>
+          <p>Professional Services</p>
+        </div>
+        <div class="flex flex-col gap-2 py-7">
+          <p class="font-semibold">Developers</p>
+          <p>Documentation</p>
+          <p>API reference</p>
+          <p>API status</p>
+          <p>API changelog</p>
+          <p>Build a Stripe App</p>
+        </div>
       </div>
       <div class="mt-80 mr-40 flex flex-col text-black gap-2">
         <p class="font-semibold">Resources</p>
@@ -1061,11 +1120,13 @@
         <p>COVID-19</p>
         <p>Sitemap</p>
         <p>Cookie settings</p>
-        <p>Company</p>
-        <p>Jobs</p>
-        <p>Newsroom</p>
-        <p>Stripe Press</p>
-        <p>Become a Partner</p>
+        <div class="flex flex-col gap-2 py-7">
+          <p class="font-semibold">Company</p>
+          <p>Jobs</p>
+          <p>Newsroom</p>
+          <p>Stripe Press</p>
+          <p>Become a Partner</p>
+        </div>
       </div>
     </footer>
 

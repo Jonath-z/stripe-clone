@@ -7,6 +7,9 @@ module.exports = {
         primary: "primary",
         secondary: "secondary",
       },
+      colors: {
+        "semi-gray": "#0a2540",
+      },
     },
   },
   plugins: [],
