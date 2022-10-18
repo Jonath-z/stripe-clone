@@ -9,6 +9,8 @@ module.exports = {
       },
       colors: {
         "semi-gray": "#0a2540",
+        "stripe-blue": "#635bff",
+        "stripe-sky-blue": "#00d4ff",
       },
     },
   },
