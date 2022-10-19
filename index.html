@@ -9,14 +9,28 @@
     <title>Stripe | clone</title>
   </head>
   <body class="flex flex-col items-center justify-center w-full">
+    <section class="grid grid-cols-4 -z-50 fixed top bottom-0 h-screen">
+      <div
+        class="border-r border-l border-dashed h-full w-[300px] border-gray-200"
+      ></div>
+      <div
+        class="border-r border-dashed h-full w-[300px] border-gray-200"
+      ></div>
+      <div
+        class="border-r border-dashed h-full w-[300px] border-gray-200"
+      ></div>
+      <div
+        class="border-r border-dashed h-full w-[300px] border-gray-200"
+      ></div>
+    </section>
     <div
-      class="absolute top-0 left-0 right-0 bottom-0 w-full h-[50rem] -z-10 header"
+      class="absolute top-0 left-0 right-0 bottom-0 w-full h-[50rem] -z-30 header"
     >
       <canvas id="gradient-canvas" style="width: 100%; height: 100%"></canvas>
     </div>
-    <div>
+    <div class="w-full">
       <header class="h-full w-full relative overflow-x-hidden">
-        <nav class="flex flex-col justify-center w-[70%] mx-auto py-4">
+        <nav class="flex flex-col justify-center max-w-6xl mx-auto py-4">
           <div class="flex justify-between items-center">
             <svg
               viewBox="0 0 60 25"
@@ -490,7 +504,7 @@
       </header>
 
       <section
-        class="grid grid-cols-4 grid-rows-2 gap-y-12 w-[70%] mx-auto my-20"
+        class="grid grid-cols-4 grid-rows-2 gap-y-12 max-w-6xl mx-auto my-20"
       >
         <img src="./assets/vectos/instactar.svg" />
         <img src="./assets/vectos/saleforce.svg" />
@@ -504,7 +518,7 @@
 
       <section class="bg-[#8d95ec]/10">
         <div
-          class="grid grid-cols-2 w-[70%] mx-auto py-32 justify-center items-center"
+          class="grid grid-cols-2 max-w-6xl mx-auto py-32 justify-center items-center"
         >
           <div class="flex flex-col gap-9">
             <p class="text-stripe-blue font-secondary text-xl">
@@ -546,7 +560,7 @@
             and much more.
           </p>
         </div>
-        <section class="grid grid-cols-4 grid-rows-2 gap-9 w-[70%] mx-auto">
+        <section class="grid grid-cols-4 grid-rows-2 gap-9 max-w-6xl mx-auto">
           <img
             src="./assets/visa-removebg-preview.png"
             class="w-full h-[50%]"
@@ -572,10 +586,10 @@
 
       <section class="z-30 relative w-full h-96">
         <section
-          class="-skew-y-6 h-[80rem] w-full py-33 bg-[#0a2540] z-40 top-0 left-0 right-0 absolute -mt-[9rem]"
+          class="-skew-y-[4deg] h-[80rem] w-full py-33 bg-[#0a2540] z-40 top-0 left-0 right-0 absolute -mt-[7rem]"
         >
           <div
-            class="flex w-[70%] mx-auto py-32 justify-center items-center mt-[10rem] skew-y-6"
+            class="flex max-w-6xl mx-auto py-32 justify-center items-center mt-[10rem] skew-y-[4deg]"
           >
             <div class="flex flex-col gap-9 w-full">
               <p class="text-stripe-sky-blue font-secondary text-xl">
@@ -826,72 +840,77 @@
         </section>
       </section>
 
-      <section class="mt-[30rem] py-96 w-[70%] mx-auto flex flex-col gap-8">
-        <div class="flex flex-col gap-8">
-          <p class="text-[#0048e5] font-secondary">Why Stripe</p>
-          <h1 class="text-5xl font-secondary leading-[3.5rem]">
-            A technology-first approach to payments<br />
-            and finance
-          </h1>
-        </div>
-        <div class="grid grid-cols-4">
-          <div>
-            <img src="./assets/vectos/material.svg" class="w-20" />
-            <p class="font-secondary">Close to the metal</p>
-            <p class="py-1 text-gray-400 font-secondary">
-              From direct integrations with<br />
-              card networks and banks to<br />
-              checkout flows in the browser,<br />
-              we operate on and optimize at<br />
-              every level of the financial stack.
-            </p>
+      <section
+        class="mt-[35rem] pt-96 pb-32 gap-8 -skew-y-[4deg] bg-white z-50"
+      >
+        <div class="max-w-6xl mx-auto flex flex-col skew-y-[4deg]">
+          <div class="flex flex-col gap-8">
+            <p class="text-[#0048e5] font-secondary">Why Stripe</p>
+            <h1 class="text-5xl font-secondary leading-[3.5rem] py-16">
+              A technology-first approach to payments<br />
+              and finance
+            </h1>
           </div>
-          <div>
-            <img src="./assets/vectos/doublePause.svg" class="w-20" />
-            <p class="font-secondary">Fastest-improving platform</p>
-            <p class="py-1 text-gray-400 font-secondary">
-              We release hundreds of features<br />
-              and improvements each year to<br />
-              help you stay ahead of industry<br />
-              shifts. (On average, we deploy<br />
-              our production API 16x per day.)
-            </p>
-          </div>
+          <div class="grid grid-cols-4">
+            <div>
+              <img src="./assets/vectos/material.svg" class="w-20" />
+              <p class="font-secondary">Close to the metal</p>
+              <p class="py-1 text-gray-400 font-secondary">
+                From direct integrations with<br />
+                card networks and banks to<br />
+                checkout flows in the browser,<br />
+                we operate on and optimize at<br />
+                every level of the financial stack.
+              </p>
+            </div>
+            <div>
+              <img src="./assets/vectos/doublePause.svg" class="w-20" />
+              <p class="font-secondary">Fastest-improving platform</p>
+              <p class="py-1 text-gray-400 font-secondary">
+                We release hundreds of features<br />
+                and improvements each year to<br />
+                help you stay ahead of industry<br />
+                shifts. (On average, we deploy<br />
+                our production API 16x per day.)
+              </p>
+            </div>
 
-          <div>
-            <img src="./assets/vectos/test.svg" class="w-20" />
-            <p class="font-secondary">Intelligent optimizations</p>
-            <p class="py-1 text-gray-400 font-secondary">
-              Our systems operate with<br />
-              99.99%+ uptime and are highly<br />
-              scalable and redundant. Stripe<br />
-              is certified to the highest<br />
-              compliance standards.
-            </p>
-          </div>
+            <div>
+              <img src="./assets/vectos/test.svg" class="w-20" />
+              <p class="font-secondary">Intelligent optimizations</p>
+              <p class="py-1 text-gray-400 font-secondary">
+                Our systems operate with<br />
+                99.99%+ uptime and are highly<br />
+                scalable and redundant. Stripe<br />
+                is certified to the highest<br />
+                compliance standards.
+              </p>
+            </div>
 
-          <div>
-            <img src="./assets/vectos/machine.svg" class="w-20" />
-            <p class="font-secondary">Battle-tested reliability</p>
-            <p class="py-1 text-gray-400 font-secondary">
-              Our machine learning models<br />
-              train on billions of data points<br />
-              and help increase revenue<br />
-              across conversion, fraud,<br />
-              revenue recovery, and more.
-            </p>
+            <div>
+              <img src="./assets/vectos/machine.svg" class="w-20" />
+              <p class="font-secondary">Battle-tested reliability</p>
+              <p class="py-1 text-gray-400 font-secondary">
+                Our machine learning models<br />
+                train on billions of data points<br />
+                and help increase revenue<br />
+                across conversion, fraud,<br />
+                revenue recovery, and more.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="relative w-full">
-        <div class="blobal-scale-cliped h-[55rem] bg-[#0a2540] w-full -mt-80">
+      <section
+        class="relative w-full bg-[#0a2540] -translate-y-[16rem] -z-50 pt-48"
+      >
+        <div class="h-[55rem] w-full max-w-6xl mx-auto">
           <img
             src="./assets/download.png"
-            class="w-[1000px] h-full object-cover ml-auto"
+            class="w-[1000px] h-full object-cover object-center ml-auto -mr-96 rounded-full"
           />
-
-          <div class="absolute bottom-0 w-[70%] right-0 left-0 mx-auto">
+          <div class="absolute bottom-0 max-w-6xl mx-auto right-0 left-0">
             <div class="flex flex-col gap-9 w-full">
               <p class="text-stripe-sky-blue font-secondary text-xl px-5">
                 Global scale
@@ -968,7 +987,7 @@
         </div>
       </section>
 
-      <section class="mt-[5rem] py-20 w-[70%] mx-auto flex flex-col gap-8">
+      <section class="-mt-24 py-20 max-w-6xl mx-auto flex flex-col gap-8">
         <div class="grid grid-cols-4">
           <div class="col-span-2 space-y-7">
             <h2 class="font-secondary text-2xl">Ready to get started?</h2>
@@ -1079,7 +1098,7 @@
         style="clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%)"
         class="bg-slate-200"
       >
-        <div class="grid grid-cols-4 justify-center py-20 w-[70%] mx-auto">
+        <div class="grid grid-cols-4 justify-center py-20 max-w-6xl mx-auto">
           <div
             class="flex flex-col justify-between gap-2 mt-80 text-semi-gray font-secondary"
           >
